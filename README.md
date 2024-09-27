@@ -20,13 +20,17 @@ Project Description This challenge is part of **Chapter 2** of Binar Academy to 
 
 ### `Landing Page`
 
-![landing-page](https://github.com/user-attachments/assets/4a93c4af-9e07-41e0-914f-4b1bcb881687)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/4a93c4af-9e07-41e0-914f-4b1bcb881687"></img>
+</div>
 
 <br>
 
 ### `Finding Available Cars`
 
-![car-filter](https://github.com/user-attachments/assets/a76dbd79-9179-4448-80be-16f9a021a3b8)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/a76dbd79-9179-4448-80be-16f9a021a3b8"></img>
+</div>
 
 ## `🎨 Key Features -`
 
