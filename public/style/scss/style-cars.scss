@@ -1,0 +1,170 @@
+// Setting default spacing
+$spacer: 1rem; // 16px
+$spacers: (
+  0: 0,
+  1: $spacer,
+  2: $spacer + 0.5rem,
+  3: $spacer + 1rem,
+  4: $spacer + 1.5rem,
+  5: 52px,
+  6: 86px,
+  7: $spacer * 12,
+);
+
+// Setting default font
+$font-weight-base: 400;
+$font-family-base: Helvetica, system-ui, Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+
+// ff i want costumize with map
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+// Get resources from bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// My config
+.my-logo {
+  background-color: #0d28a6;
+  width: 100px;
+  height: 34px;
+}
+
+.btn-success {
+  background-color: #5cb85f;
+}
+
+nav {
+  background-color: #f1f3ff;
+}
+
+#home {
+  background-color: #f1f3ff;
+  margin-bottom: 50px;
+
+  .left {
+    p {
+      padding-right: 8rem;
+    }
+  }
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  img {
+    width: 224px;
+    height: 32px;
+  }
+  a {
+    color: black;
+  }
+  a:hover {
+    color: #717175;
+  }
+}
+
+.btn-utama {
+  background-color: #5cb85f;
+  color: #ffff;
+  border-radius: 0;
+  &:hover {
+    color: #5cb85f;
+    background-color: #ffffff;
+    border: 1px solid #5cb85f;
+  }
+}
+
+.search {
+  margin-top: -120px;
+  .search__card {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    .search__time {
+      .form-select {
+        background-image: url("../../images/fi_clock.png");
+        background-size: 20px auto;
+      }
+    }
+    .form-select {
+      &:hover {
+        border: 1px solid #5cb85f;
+        border-radius: 2px;
+      }
+      option {
+        &:hover,
+        &:checked {
+          background: #c9e7ca;
+          color: #5cb85f;
+        }
+      }
+    }
+  }
+}
+
+.cars {
+  margin-top: 30px;
+
+  .card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  .cars__p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 60px;
+  }
+}
+
+// xxl
+@media only screen and (max-width: 1400px) {
+  #home {
+    .left {
+      padding-left: 5%;
+    }
+  }
+}
+
+// xl
+@media only screen and (max-width: 1200px) {
+  #home {
+    .left {
+      padding-left: 5%;
+    }
+  }
+  .cars {
+    .cars__p {
+      height: 80px;
+    }
+  }
+}
+
+// Lg
+@media only screen and (max-width: 992px) {
+  #home {
+    .left {
+      p {
+        padding-right: 1rem;
+      }
+    }
+  }
+}
+
+// Md
+@media only screen and (max-width: 768px) {
+  .offcanvas {
+    --bs-offcanvas-width: 180px;
+  }
+}
+
+// Sm
+@media only screen and (max-width: 576px) {
+  #home {
+    margin-bottom: 30px;
+  }
+
+  footer {
+    padding: 50px 0px;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "rentalcar-withfiltering",
+  "version": "1.0.0",
+  "description": "Challenge Chapter-2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
