@@ -16,17 +16,17 @@ Project Description This challenge is part of **Chapter 2** of Binar Academy to 
 - **Javascript** - Scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.
 - **Bootstrap 5** - CSS framework for responsive design
 
-## 🎨 Documentation
+## `˙✧˖°📷 ༘ ⋆｡° Documentation
 
 ### `Landing Page`
 
-![Screenshot 2024-09-27 203125](https://github.com/user-attachments/assets/cec373c7-a83d-4d35-8b8e-f52685001984)
-![Screenshot 2024-09-27 203145](https://github.com/user-attachments/assets/a5b21ed0-370e-49d6-acd1-8349c7116ea7)
+![landing-page](https://github.com/user-attachments/assets/4a93c4af-9e07-41e0-914f-4b1bcb881687)
+
+<br>
 
 ### `Finding Available Cars`
 
-![Screenshot 2024-09-27 203222](https://github.com/user-attachments/assets/e1986775-6b97-41c4-886e-e95424a9f169)
-![Screenshot 2024-09-27 203240](https://github.com/user-attachments/assets/a509f34c-e952-43bd-83b8-67c063e95b0d)
+![car-filter](https://github.com/user-attachments/assets/a76dbd79-9179-4448-80be-16f9a021a3b8)
 
 ## `🎨 Key Features -`
 
